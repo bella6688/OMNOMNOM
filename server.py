@@ -20,7 +20,7 @@ def index():
     restaurant_area = data['conversation']['memory']['area']['raw']
     restaurant_cuisine = data['conversation']['memory']['cuisine']['raw']
 
-    with open('restaurant_ber1.csv', encoding='utf-8') as csvfile:
+    with open('restaurant_ber.csv', encoding='utf-8') as csvfile:
       reader = InsensitiveDictReader(csvfile)
       #reader = csv.DictReader(csvfile)
       #   Cuisine="Cafes & Coffee"
