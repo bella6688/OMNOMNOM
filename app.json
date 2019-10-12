@@ -4,7 +4,7 @@
   "image": "heroku/python",
   "repository": "https://github.com/bella6688/OMNOMNOM",
   "keywords": ["python", "flask" ],
-  #"addons": [ "heroku-postgresql" ],
+  "addons": [ "heroku-postgresql" ],
   "environments": {
     "test": {
       "scripts": {
